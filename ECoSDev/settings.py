@@ -25,12 +25,16 @@ SECRET_KEY = 'xj9vct9d00)x2md)@b3zfhz4%qe&yh*nkaiscl0eq^maf_=5e)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "localhost",
+    "ECoSDev.us-west-1.elasticbeanstalk.com"
+]
 
-
+DEBUG = True
 # Application definition
 
 INSTALLED_APPS = [
+    'download',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
