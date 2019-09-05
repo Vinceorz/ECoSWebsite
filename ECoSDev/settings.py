@@ -26,6 +26,7 @@ SECRET_KEY = 'xj9vct9d00)x2md)@b3zfhz4%qe&yh*nkaiscl0eq^maf_=5e)'
 DEBUG = True
 
 ALLOWED_HOSTS = [
+    "ecosdev.org",
     "localhost",
     "ECoSDev.us-west-1.elasticbeanstalk.com"
 ]
